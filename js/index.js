@@ -64,9 +64,6 @@ $('.setbg,.setbox .close,.setbox .savebtn').click(function (event) {
 });
 $('.downlist').on('click', 'li', function (event) {
 	if (!$(this).hasClass('active')) {
-		if ($(this).attr('data-id') >= 26) {
-			return false;
-		}
 		pondid = $(this).attr('data-id');
 		var tmpstr = $(this).html();
 		$('.poundselect').html(tmpstr);
