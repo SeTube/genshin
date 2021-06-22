@@ -1,4 +1,3 @@
-@media only screen and (min-width:1200px) {html {font-size:50px}
 blockquote,body,button,code,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,legend,li,ol,p,pre,td,textarea,th,ul {margin:0;padding:0;font-family:"Microsoft YaHei"}
 table {border-collapse:collapse;border-spacing:0;font-family:"Microsoft YaHei"}
 fieldset,img {border:0}
@@ -108,8 +107,8 @@ button,textarea {outline:0;border:0;padding:0;margin:0}
 .alertbig.pc .appdown a {display:inline-block;margin:0 20px;width:220px;height:56px;cursor:pointer}
 .alertbig.pc .appdown a.and {background:url(../images/appand.png);background-size:100%}
 .alertbig.pc .appdown a.ios {background:url(../images/appios.png);background-size:100%}
-}
-@media only screen and (max-width:1200px) {html {font-size:50px}
+@media only screen and (max-width:800px) {html {font-size:50px}
+html {font-size:50px}
 blockquote,body,button,code,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,legend,li,ol,p,pre,td,textarea,th,ul {margin:0;padding:0;font-family:"Microsoft YaHei"}
 table {border-collapse:collapse;border-spacing:0;font-family:"Microsoft YaHei"}
 fieldset,img {border:0}
