@@ -127,7 +127,7 @@ input,select,textarea {font-family:inherit;font-size:inherit;font-weight:inherit
 a {text-decoration:none}
 button,textarea {outline:0;border:0;padding:0;margin:0}
 .main {width:100%;margin:auto;overflow:hidden;position:relative;background:#282d48 url(../images/cjm1.png) no-repeat center top;background-size:100%}
-.main .box {width:6.9rem;margin:auto;overflow:hidden;margin-top:.94rem;background:url(../images/cjm10.png) no-repeat center top;background-size:100% auto;box-sizing:border-box}
+.main .box {width:100%;margin:auto;overflow:hidden;margin-top:.94rem;background:url(../images/cjm10.png) no-repeat center top;background-size:100% auto;box-sizing:border-box}
 .bigtit {width:6.24rem;height:1.22rem;background:url(../images/cjm4.png) no-repeat center top;background-size:100% 100%;margin:auto;margin-top:.49rem}
 .tabbox {height:.64rem;width:6.06rem;margin:auto;margin:.28rem auto 0}
 .tabbox .extmsg {display:none}
