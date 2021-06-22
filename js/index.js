@@ -120,7 +120,7 @@ $('.downlist').on('click', 'li', function(event) {
 
 		var str = '';
 		for (var i = 0; i < 10; i++) {
-			str += '<div class="cjinlist"><img src="images/wz.png" alt=""><span>???</span></div>';
+			str += '<div class="cjinlist"><img src="//cdn.jsdelivr.net/gh/finest-cy/genshin@main/images/wz.png" alt=""><span>???</span></div>';
 		}
 		$('.cjbox .cjin').html(str);
 	}
@@ -178,7 +178,7 @@ $('.btnbox .reset').click(function(event) {
 
 	var str = '';
 	for (var i = 0; i < 10; i++) {
-		str += '<div class="cjinlist"><img src="images/wz.png" alt=""><span>???</span></div>';
+		str += '<div class="cjinlist"><img src="//cdn.jsdelivr.net/gh/finest-cy/genshin@main/images/wz.png" alt=""><span>???</span></div>';
 	}
 	$('.cjbox .cjin').html(str);
 });
