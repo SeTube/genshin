@@ -1,0 +1,140 @@
+html{font-size:50px}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,button,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;font-family:"Microsoft YaHei"}
+table{border-collapse:collapse;border-spacing:0;font-family:"Microsoft YaHei"}
+fieldset,img{border:0}
+address,caption,cite,code,dfn,em,strong,th,var,i{font-style:normal;font-weight:normal}
+ul,ol,li{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+q:before,q:after{content:''}
+abbr,acronym{border:0;font-variant:normal}
+sup{vertical-align:text-top}
+sub{vertical-align:text-bottom}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}
+input,textarea,select{*font-size:100%}
+a{text-decoration:none}
+button,textarea{outline:0;border:0;padding:0;margin:0}
+.main{width:100%;margin:auto;overflow:hidden;position:relative;background:#282d48 url(../images/cjm1.png) no-repeat center top;background-size:100%}
+.main .box{width:6.9rem;margin:auto;overflow:hidden;margin-top:.94rem;background:url(../images/cjm10.png) no-repeat center top;background-size:100% auto;box-sizing:border-box}
+.bigtit{width:6.24rem;height:1.22rem;background:url(../images/cjm4.png) no-repeat center top;background-size:100% 100%;margin:auto;margin-top:.49rem}
+.tabbox{height:.64rem;width:6.06rem;margin:auto;margin:.28rem auto 0}
+.tabbox .extmsg{display: none}
+.tabbox .left{float:left;position:relative;width:4.68rem;height:.64rem;background-color:#171c33}
+.tabbox .left .checkedbox{width:100%;height:100%;text-indent:.15rem;font-size:.24rem;line-height:.64rem;color:rgba(254,254,254,0.5)}
+.tabbox .left .downbtn{position:absolute;width:.55rem;height:.55rem;background-color:#282d48;right:.04rem;top:.04rem;cursor:pointer;display:flex;align-items:center;justify-content:center}
+.tabbox .left .downbtn em{width:.36rem;height:.26rem;background:url(../images/cjm13.png) no-repeat;background-size:100%;display:block;transition:all .2s}
+.tabbox .left .downbtn.active em{transform:rotate(180deg);-ms-transform:rotate(180deg);-moz-transform:rotate(180deg);-webkit-transform:rotate(180deg);-o-transform:rotate(180deg)}
+.tabbox .left .downlist{position:absolute;width:100%;background-color:#171c33;overflow-y:auto;display:none;padding:.05rem 0;margin-top:.08rem}
+.tabbox .left .downlist li{height:.66rem;text-indent:.15rem;line-height:.66rem;cursor:pointer;color:#fff;font-size:.24rem;width:100%;overflow:hidden;width:100%;color:#fff}
+.tabbox .left .downlist li:hover{background:#292d3e}
+.tabbox .right{float:right;border:solid 1px #1d223d;box-sizing:border-box;position:relative;width:.9rem;height:.64rem;background-color:#282d48;border:solid 1px #1d223d}
+.tabbox .right .checkedbox{width:100%;height:100%;line-height:.4rem;text-indent:.5rem;position:relative;color:#fff;font-size:.16rem;cursor:pointer;display:flex;align-items:center;justify-content:center}
+.tabbox .right .checkedbox span{display:none}
+.tabbox .right .checkedbox::after{content:'';position:absolute;display:block;width:.34rem;height:.34rem;transition:all .2s;background:url(../images/cjm11.png);background-size:100%}
+.tabbox .right .checkedbox.active::after{transform:rotate(360deg);-ms-transform:rotate(360deg);-moz-transform:rotate(360deg);-webkit-transform:rotate(360deg);-o-transform:rotate(360deg)}
+.tabbox .right .setbg{display:none;position:fixed;top:0;left:0;width:100%;height:100%;z-index:1;background:rgba(0,0,0,0.4)}
+.tabbox .right .setbox{display:none;position:fixed;top:0;left:0;right:0;bottom:0;margin:auto;width:6.9rem;height:11.26rem;background-color:rgba(40,45,72,0.95);z-index:2}
+.tabbox .right .setin{position:relative;width:100%;height:100%;overflow:hidden}
+.tabbox .right .setin .cctit{background:url(../images/cjm9.png) no-repeat;background-size:100%;width:6.24rem;height:.98rem;margin:auto;margin-top:.75rem;margin-bottom:.24rem}
+.tabbox .right .setin .close{position:absolute;width:.44rem;height:.44rem;top:.1rem;right:.1rem;cursor:pointer;background:url(../images/cjm7.png) no-repeat center center;background-size:100% 100%}
+.tabbox .right .setin .glsz,.tabbox .right .setin .bdsz{margin:auto;width:6.1rem}
+.tabbox .right .setin .glsz>span,.tabbox .right .setin .bdsz>span{display:block;width:100%;color:#fff;margin-bottom:.16rem;margin-top:.2rem;font-size:.36rem}
+.tabbox .right .setin span>span{line-height:.8rem}
+.tabbox .right .setin .szlist{width:100%;margin-bottom:.24rem;margin-left:.36rem}
+.tabbox .right .setin .szlist .glsm{width:100%;display:block;line-height:.54rem;font-size:.28rem;margin-bottom:.24rem}
+.tabbox .right .setin .szlist .glnormal{line-height:.36rem}
+.tabbox .right .setin .szlist .glsm span,.tabbox .right .setin .szlist .glnormal span{color:#fff;font-size:.28rem;display:inline-block}
+.tabbox .right .setin .szlist .glsm .ipt,.tabbox .right .setin .szlist .glnormal .ipt{width:1.08rem;height:.54rem;background-color:#171c33;border-radius:.08rem;display:inline-block;color:#fff;text-align:center;margin:0 .2rem;border:0;font-size:.28rem}
+.tabbox .right .setin .cksetbtnbox{width:6.24rem;display:flex;align-items:center;justify-content:center;margin:.5rem auto 0}
+.tabbox .right .setin .cksetbtnbox>div{width:2.94rem;height:.76rem;margin:0 .1rem;line-height:.76rem;text-align:center;font-size:.24rem;color:#1d223d;background-size:100%}
+.tabbox .right .setin .cksetbtnbox .savebtn{background-image:url(../images/cjm5.png)}
+.tabbox .right .setin .cksetbtnbox .returnbtn{background-image:url(../images/cjm6.png)}
+.cjbox{width:6.23rem;height:5.47rem;background:url(../images/cjm8.png) no-repeat;box-sizing:border-box;padding:.48rem .46rem 0;margin:.24rem auto 0}
+.cjbox .cjin{overflow:hidden;display:flex;flex-wrap:wrap;align-items:center;justify-content:center}
+.cjbox .cjinlist{width:1.08rem;margin:0 .12rem;margin-bottom:.24rem;display:block}
+.cjbox .cjinlist img{border-radius: .1rem;display:block;width:1.08rem;height:1.08rem}
+.cjbox .cjinlist span{display:block;width:100%;text-align:center;height:.3rem;line-height:.3rem;color:#fff;font-size:.18rem}
+.btnbox{text-align:center;margin-top:.22rem}
+.btnbox>div{display:inline-block;text-align:center;width:2.94rem;height:.76rem;text-align:center;line-height:.76rem;background:url(../images/cjm5.png) no-repeat;cursor:pointer;color:#1d223d;font-size:.24rem;margin:0 .06rem;background-size:100% 100%}
+.btnbox>div.reset{background-image:url(../images/cjm6.png)}
+.lstj{margin-top:.7rem;overflow:hidden}
+.lstj .lstjtit{width:6.06rem;height:.32rem;margin:auto;margin-bottom:.5rem;background:url(../images/cjm12.png) no-repeat;background-size:100% 100%}
+.lstj .left{width:5.8rem;margin:auto}
+.lstj .right{width:6rem;margin:auto}
+.lstj .lstjlist{width:100%;background-image:linear-gradient(90deg,rgba(29,34,61,0.8) 0,rgba(29,34,61,0.1) 100%);margin-bottom:.25rem;text-indent:.12rem}
+.lstj .lstjlist p{height:.43rem;line-height:.43rem;color:#fff;font-size:.24rem}
+.lstj .lstjlist .big{font-size:.26rem;color:#fff;height:.35rem;padding-top:.08rem;display:block}
+.lstj .lstjlistr{margin-bottom:.2rem}
+.lstj .lstjlistr .swiper-slide{position:relative}
+.lstj .lstjlistr img{border-radius: .1rem;width:1.01rem;height:1.01rem;padding:.03rem;display:block;margin-top:.08rem;border:1px solid #fff}
+.lstj .lstjlistr span{display:block;width:100%;text-align:center;color:#fff;height:.44rem;font-size:.24rem;text-align:center;line-height:.44rem}
+.lstj .lstjlistr.swiper3 span{height: .6rem;line-height: .3rem}
+.lstj .lstjlistr em{position:absolute;top:0rem;right:0rem;width:.5rem;height:.5rem;background-color:#ea0032;border-radius:50%;text-align:center;line-height:.5rem;color:#fff;font-size:.2rem}
+.bigtixing{text-align:center;color:#fff;height:2.5rem;font-size:.24rem;width:90%;display:flex;align-items:center;justify-content:center;margin: auto}
+.bigren{display:none;position:absolute;bottom:0;left:0;width:30vw;height:33vw;background:url(../images/rw.png) no-repeat center center;background-size:cover}
+.global_topbox,.ns_t1{display: none}
+.swiper-ztnav .game-nav1{width:auto!important;}
+.mskbig{
+	display: none;
+	position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+.alertbig{
+	display: none;
+	position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    margin: auto;
+        width: 5.9rem;
+    height: 3.75rem;
+    background: url(../images/h5appbg.png);
+    background-size: 100%;
+}
+.h5wxts{
+	    color: #242424;
+    font-size: .32rem;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: .3rem 0;
+}
+.alertbig p{
+	color: #242424;
+    font-size: .32rem;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.h5down{
+	    margin-top: .6rem;
+    text-align: center;
+    height: .75rem;
+}
+.h5down a{
+	display: inline-block;
+	width: 2.41rem;
+	height: .75rem;
+	margin: 0 .15rem;
+}
+.h5down a.qx{
+	background: url(../images/h5qx.png);
+	background-size: 100%;
+}
+.h5down a.qr{
+	background: url(../images/h5qr.png);
+	background-size: 100%;
+}
+
+
+
+
